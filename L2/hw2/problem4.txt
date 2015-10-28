@@ -1,0 +1,5 @@
+1. We are going to use to use x axis for rank, size for y axis. The range of x would be within 0 - 100. The name of output is 'scatterplot.es'.
+
+Then we are plotting the result using the first column as x, 3rd as y.
+
+2. Looking at the scatterplot, it seemed most popular websites are within a size of 80000 bytes, making them very lightweight, fast and responsive.

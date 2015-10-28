@@ -1,0 +1,4 @@
+2.
+wc -l  very-long-file.txt
+wc provides some basic stats about a file, like byte count, lines in the file etc. Above command would give the number of lines of the specified file.
+

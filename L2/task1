@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+
+wget -O temp google.com
+wc -c < temp
+

@@ -1,0 +1,35 @@
+mkdir pb1 pb4 pb6
+mv animals.txt dog.txt mouse.txt very-long-file.txt pb1
+mv irun4ever.c irun4ever pb4
+mv file1.txt file2.txt hw1.sh pb6
+
+
+Solution to 1b
+cp -r ~/Documents/CSE410/L1/hw1 ~/Documents/CSE410/L1/hw1-back
+
+Solution to 1c
+chmod +x hw1.sh
+
+Solution 1d
+head -5 very-long-file.txt > problem1.txt
+
+Solution to e
+Value of 'Home' -> /home/roy
+Home directory is the base directory of a user. Different users have different home directory.
+
+Solution to f
+Value of 'Path' -> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+Path direcotry signifies that the listed direcoties are directly accessible. Therefore, path is often used to store libaraies and applications that many programs share.
+
+Solution to g
+When hw1.sh is entered, bash tries to find hw1.sh in the directories listed in the path. However './hw1.sh' works because then bash looks for the file in the current directory, where the file is.
+
+Solution to i
+When `` is used instead of '', bash treats the string under `` as code, hence executing it and then uses the result as standard string.
+So, when 'mkdir `whoami`' is initiated, first bash executes whoami, which gives the name of the current user and then it procedes to create a direcotry named on the user.
+
+Solution to j
+The first command searches for 'dog' in the file names in the specified directory.
+Second one searches for 'dog' inside the files of the specified directory
+
+

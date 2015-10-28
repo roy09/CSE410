@@ -1,0 +1,5 @@
+sort -n k3 results1 > results2
+sed -e 's/http:\/\///' -e 's/\///' results2 > results3
+
+gnuplot produce-cdf.gnuplot 
+

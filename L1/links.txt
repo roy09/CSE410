@@ -1,0 +1,11 @@
+For all commands and details: http://ss64.com
+
+for practise use online terminal: http://sdf.lonestar.org/
+
+http://sdf.org/?signup
+
+Or use: http://cb.vu/
+
+To access from windows
+Get Putty: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+
